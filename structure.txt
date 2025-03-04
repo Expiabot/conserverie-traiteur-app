@@ -1,0 +1,31 @@
+conserverie-app/
+├── frontend/                # Application React
+│   ├── public/              # Fichiers statiques
+│   ├── src/                 # Code source frontend
+│   │   ├── assets/          # Images, fonts, etc.
+│   │   ├── components/      # Composants réutilisables
+│   │   ├── pages/           # Pages de l'application
+│   │   ├── context/         # État global (Context API)
+│   │   ├── services/        # Services API
+│   │   ├── hooks/           # Hooks personnalisés
+│   │   ├── utils/           # Fonctions utilitaires
+│   │   ├── App.js           # Composant principal
+│   │   └── index.js         # Point d'entrée
+│   ├── package.json         # Dépendances frontend
+│   └── README.md            # Documentation frontend
+│
+├── backend/                 # Serveur Express.js
+│   ├── config/              # Configuration
+│   ├── controllers/         # Logique métier
+│   ├── middlewares/         # Middlewares Express
+│   ├── models/              # Modèles de données
+│   ├── routes/              # Routes API
+│   ├── services/            # Services (email, paiement, etc.)
+│   ├── utils/               # Fonctions utilitaires
+│   ├── server.js            # Point d'entrée
+│   ├── package.json         # Dépendances backend
+│   └── README.md            # Documentation backend
+│
+├── docs/                    # Documentation du projet
+├── .gitignore               # Fichiers ignorés par Git
+└── README.md                # Documentation principale
